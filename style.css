@@ -288,3 +288,208 @@ header {
 .botao-esquerda-menu{
   margin: 15px;
 }
+
+/* TOPO */
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #f8e4e8;
+}
+
+.logo {
+  font-size: 28px;
+  font-style: italic;
+}
+
+.botoes button {
+  background: #e7b3c1;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* LAYOUT */
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #e795b7 ;
+
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+/* CONTEÚDO */
+.conteudo {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.conteudo h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.busca {
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+.card {
+  background: #f1f1f1;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card p {
+  margin-top: 10px;
+}
+
+.card span {
+  font-weight: bold;
+}
+
+/* HERO CONTATO */
+
+.contato-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: linear-gradient(to right, #e7c5d2, rgba(231,197,210,0.5)),
+              url("imagens/doces-fundo.jpg");
+
+  background-size: cover;
+  background-position: right;
+
+  padding: 80px;
+}
+
+.contato-texto {
+  max-width: 500px;
+}
+
+.contato-texto h1 {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.contato-texto p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.horario {
+  margin-top: 20px;
+}
+
+/* BLOCO INFORMAÇÕES */
+
+.info {
+  background: #e7c5d2;
+  padding: 60px;
+}
+
+/* TÍTULO */
+
+.info-titulo {
+  background: #e3a9bd;
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.info-titulo h2 {
+  font-size: 32px;
+}
+
+/* CAIXA PRINCIPAL */
+
+.info-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #eee;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+/* DADOS */
+
+.info-dados p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.info-dados span {
+  font-size: 14px;
+  color: #555;
+}
+
+/* SOCIAL */
+
+.social {
+  font-size: 20px;
+}
+
+/* MAPA */
+
+.info-mapa img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 900px) {
+  .info-box {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contato-hero {
+    flex-direction: column;
+    text-align: center;
+  }
+}

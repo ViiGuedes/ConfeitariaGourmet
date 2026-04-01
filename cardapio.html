@@ -1,43 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Document</title>
-    <title>Confeitaria Gourmet</title>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Confeitaria Gourmet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <!-- Fonte cursiva -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
-      rel="stylesheet"
-    />
+<header class="topo">
+  <div class="logo">Confeitaria Gourmet</div>
 
-    <!-- Fonte de texto -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
+  <div class="botoes">
+    <a href="faleconosco.html"><button class="btn">FALE CONOSCO</button></a>
+    <a href="index.html"><button>PÁGINA INICIAL</button></a>
+  </div>
+</header>
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<main class="container">
 
-  <body>
-    <header>
-      <div class="div-navbar">
-        <div class="logo">
-          <img class="logo" src="imagens/sublogo.PNG" alt="" />
-        </div>
-        <div class="div-esquerda-menu">
-          <button class="menu-btn botao-esquerda-menu">FALE CONOSCO</button>
-          <button class="menu-btn">PAGINA INICIAL</button>
-          <img class="imagemlogo" src="imagens/logos.jpg" alt="" />
-        </div>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>Categorias</h2>
+    <ul>
+      <li>Cupcakes</li>
+      <li>Dunuts</li>
+      <li>Morangos do Amor</li>
+      <li>Rocamboles</li>
+      <li>Docinhos</li>
+      <li>Macarrons</li>
+    </ul>
+  </aside>
+
+  <!-- Conteúdo -->
+  <section class="conteudo">
+    <h1>Cardápio</h1>
+
+    <input type="text" placeholder="Pesquisar..." class="busca">
+
+    <div class="grid">
+
+      <div class="card">
+        <img src="imagens/rocambole.jpg">
+        <p>Rocamboles<br><span>R$ 50,00</span></p>
       </div>
-    </header>
-  </body>
+
+      <div class="card">
+        <img src="imagens/docinhos.jpg">
+        <p>Docinhos<br><span>R$ 10,00</span></p>
+      </div>
+
+      <div class="card">
+        <img src="imagens/macarrons.jpg">
+        <p>Macarrons<br><span>R$ 15,00</span></p>
+      </div>
+
+      <div class="card">
+        <img src="imagens/images.jpg">
+        <p>Brigadeiro do Amor<br><span>R$ 20,00</span></p>
+      </div>
+
+      <div class="card">
+        <img src="imagens/cupcakes.jpg">
+        <p>Cupcakes<br><span>R$ 25,00</span></p>
+      </div>
+
+      <div class="card">
+        <img src="imagens/dunats.jpg">
+        <p>Donuts<br><span>R$ 30,00</span></p>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+</body>
 </html>
