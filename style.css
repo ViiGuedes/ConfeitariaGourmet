@@ -344,11 +344,14 @@ header {
 .conteudo {
   flex: 1;
   margin-left: 20px;
+  background: #f6c5d2;
+
 }
 
 .conteudo h1 {
   font-size: 40px;
   margin-bottom: 10px;
+  background: #f6c5d2;
 }
 
 .busca {
